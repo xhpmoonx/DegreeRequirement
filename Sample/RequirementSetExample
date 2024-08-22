@@ -1,0 +1,195 @@
+{
+  "name": "Core Programming Requirements",
+  "credit_hours": 12,
+  "description": "A set of core programming courses required for the major.",
+  "requirements": [
+    {
+      "name": "Introductory Programming Courses",
+      "credit_hours": 6,
+      "description": "Courses to introduce programming concepts.",
+      "course_reqs": [
+        [
+          {
+            "id": 101,
+            "name": "Intro to Programming",
+            "credit_hours": 3,
+            "prefix": "CS",
+            "num": "101",
+            "institution": "University",
+            "college": "Engineering",
+            "department": "Computer Science",
+            "cross_listed": [],
+            "canonical_name": "IntroProgramming",
+            "passrate": 0.85,
+            "requisites": {},
+            "learning_outcomes": [],
+            "metrics": {},
+            "metadata": {}
+          },
+          "A"
+        ],
+        [
+          {
+            "id": 102,
+            "name": "Data Structures",
+            "credit_hours": 3,
+            "prefix": "CS",
+            "num": "201",
+            "institution": "University",
+            "college": "Engineering",
+            "department": "Computer Science",
+            "cross_listed": [],
+            "canonical_name": "DataStructures",
+            "passrate": 0.8,
+            "requisites": {},
+            "learning_outcomes": [],
+            "metrics": {},
+            "metadata": {}
+          },
+          "B"
+        ]
+      ],
+      "course_catalog": {
+        "id": 1,
+        "name": "CS Course Catalog",
+        "institution": "University",
+        "date_range": ["2023-01-01", "2023-12-31"],
+        "catalog": {
+          "101": {
+            "id": 101,
+            "name": "Intro to Programming",
+            "credit_hours": 3,
+            "prefix": "CS",
+            "num": "101",
+            "institution": "University",
+            "college": "Engineering",
+            "department": "Computer Science",
+            "cross_listed": [],
+            "canonical_name": "IntroProgramming",
+            "passrate": 0.85,
+            "requisites": {},
+            "learning_outcomes": [],
+            "metrics": {},
+            "metadata": {}
+          },
+          "102": {
+            "id": 102,
+            "name": "Data Structures",
+            "credit_hours": 3,
+            "prefix": "CS",
+            "num": "201",
+            "institution": "University",
+            "college": "Engineering",
+            "department": "Computer Science",
+            "cross_listed": [],
+            "canonical_name": "DataStructures",
+            "passrate": 0.8,
+            "requisites": {},
+            "learning_outcomes": [],
+            "metrics": {},
+            "metadata": {}
+          }
+        }
+      },
+      "prefix_regex": "CS",
+      "num_regex": "10[1|2]",
+      "min_grade": "B",
+      "double_count": false
+    },
+    {
+      "name": "Advanced Programming Courses",
+      "credit_hours": 6,
+      "description": "Advanced programming courses for deeper knowledge.",
+      "course_reqs": [
+        [
+          {
+            "id": 201,
+            "name": "Algorithms",
+            "credit_hours": 3,
+            "prefix": "CS",
+            "num": "301",
+            "institution": "University",
+            "college": "Engineering",
+            "department": "Computer Science",
+            "cross_listed": [],
+            "canonical_name": "Algorithms",
+            "passrate": 0.75,
+            "requisites": {},
+            "learning_outcomes": [],
+            "metrics": {},
+            "metadata": {}
+          },
+          "A"
+        ],
+        [
+          {
+            "id": 202,
+            "name": "Operating Systems",
+            "credit_hours": 3,
+            "prefix": "CS",
+            "num": "302",
+            "institution": "University",
+            "college": "Engineering",
+            "department": "Computer Science",
+            "cross_listed": [],
+            "canonical_name": "OperatingSystems",
+            "passrate": 0.7,
+            "requisites": {},
+            "learning_outcomes": [],
+            "metrics": {},
+            "metadata": {}
+          },
+          "B"
+        ]
+      ],
+      "course_catalog": {
+        "id": 2,
+        "name": "CS Advanced Course Catalog",
+        "institution": "University",
+        "date_range": ["2023-01-01", "2023-12-31"],
+        "catalog": {
+          "201": {
+            "id": 201,
+            "name": "Algorithms",
+            "credit_hours": 3,
+            "prefix": "CS",
+            "num": "301",
+            "institution": "University",
+            "college": "Engineering",
+            "department": "Computer Science",
+            "cross_listed": [],
+            "canonical_name": "Algorithms",
+            "passrate": 0.75,
+            "requisites": {},
+            "learning_outcomes": [],
+            "metrics": {},
+            "metadata": {}
+          },
+          "202": {
+            "id": 202,
+            "name": "Operating Systems",
+            "credit_hours": 3,
+            "prefix": "CS",
+            "num": "302",
+            "institution": "University",
+            "college": "Engineering",
+            "department": "Computer Science",
+            "cross_listed": [],
+            "canonical_name": "OperatingSystems",
+            "passrate": 0.7,
+            "requisites": {},
+            "learning_outcomes": [],
+            "metrics": {},
+            "metadata": {}
+          }
+        }
+      },
+      "prefix_regex": "CS",
+      "num_regex": "30[1|2]",
+      "min_grade": "B",
+      "double_count": false
+    }
+  ],
+  "satisfy": 1
+}
+

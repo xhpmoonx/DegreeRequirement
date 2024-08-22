@@ -1,0 +1,94 @@
+{
+  "name": "Introductory Programming Courses",
+  "credit_hours": 6,
+  "description": "Courses to introduce programming concepts.",
+  "course_reqs": [
+    [
+      {
+        "id": 101,
+        "name": "Intro to Programming",
+        "credit_hours": 3,
+        "prefix": "CS",
+        "num": "101",
+        "institution": "University",
+        "college": "Engineering",
+        "department": "Computer Science",
+        "cross_listed": [],
+        "canonical_name": "IntroProgramming",
+        "passrate": 0.85,
+        "requisites": {},
+        "learning_outcomes": [],
+        "metrics": {},
+        "metadata": {}
+      },
+      "A"
+    ],
+    [
+      {
+        "id": 102,
+        "name": "Data Structures",
+        "credit_hours": 3,
+        "prefix": "CS",
+        "num": "201",
+        "institution": "University",
+        "college": "Engineering",
+        "department": "Computer Science",
+        "cross_listed": [],
+        "canonical_name": "DataStructures",
+        "passrate": 0.8,
+        "requisites": {},
+        "learning_outcomes": [],
+        "metrics": {},
+        "metadata": {}
+      },
+      "B"
+    ]
+  ],
+  "course_catalog": {
+    "id": 1,
+    "name": "CS Course Catalog",
+    "institution": "University",
+    "date_range": ["2023-01-01", "2023-12-31"],
+    "catalog": {
+      "101": {
+        "id": 101,
+        "name": "Intro to Programming",
+        "credit_hours": 3,
+        "prefix": "CS",
+        "num": "101",
+        "institution": "University",
+        "college": "Engineering",
+        "department": "Computer Science",
+        "cross_listed": [],
+        "canonical_name": "IntroProgramming",
+        "passrate": 0.85,
+        "requisites": {},
+        "learning_outcomes": [],
+        "metrics": {},
+        "metadata": {}
+      },
+      "102": {
+        "id": 102,
+        "name": "Data Structures",
+        "credit_hours": 3,
+        "prefix": "CS",
+        "num": "201",
+        "institution": "University",
+        "college": "Engineering",
+        "department": "Computer Science",
+        "cross_listed": [],
+        "canonical_name": "DataStructures",
+        "passrate": 0.8,
+        "requisites": {},
+        "learning_outcomes": [],
+        "metrics": {},
+        "metadata": {}
+      }
+    }
+  },
+  "prefix_regex": "CS",
+  "num_regex": "10[1|2]",
+  "min_grade": "B",
+  "double_count": false
+}
+

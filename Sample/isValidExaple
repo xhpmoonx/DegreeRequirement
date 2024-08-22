@@ -1,0 +1,160 @@
+
+############################################################# Valid
+{
+  "name": "Valid Requirement Set",
+  "description": "This requirement set is correctly defined and meets all validation criteria.",
+  "credit_hours": 6,
+  "requirements": [
+    {
+      "name": "Course Set A",
+      "credit_hours": 3,
+      "course_reqs": [
+        [
+          {
+            "name": "Course A1",
+            "credit_hours": 2
+          },
+          "A"
+        ],
+        [
+          {
+            "name": "Course A2",
+            "credit_hours": 1
+          },
+          "B"
+        ]
+      ],
+      "prefix_regex_compiled": ".*",
+      "num_regex_compiled": ".*"
+    },
+    {
+      "name": "Course Set B",
+      "credit_hours": 3,
+      "course_reqs": [
+        [
+          {
+            "name": "Course B1",
+            "credit_hours": 3
+          },
+          "A"
+        ]
+      ],
+      "prefix_regex_compiled": ".*",
+      "num_regex_compiled": ".*"
+    }
+  ],
+  "satisfy": 1
+}
+
+
+############################################################# Not Valid
+
+{
+  "name": "Invalid Requirement Set",
+  "description": "This requirement set is intentionally invalid.",
+  "credit_hours": 15,
+  "requirements": [
+    {
+      "name": "Invalid Course Set 1",
+      "credit_hours": 10,
+      "course_reqs": [
+        [
+          {
+            "name": "Course 1",
+            "credit_hours": 2
+          },
+          "A"
+        ],
+        [
+          {
+            "name": "Course 2",
+            "credit_hours": 3
+          },
+          "B"
+        ]
+      ],
+      "prefix_regex_compiled": ".*",
+      "num_regex_compiled": ".*"
+    },
+    {
+      "name": "Invalid Course Set 2",
+      "credit_hours": 5,
+      "course_reqs": [
+        [
+          {
+            "name": "Course 3",
+            "credit_hours": 3
+          },
+          "A"
+        ],
+        [
+          {
+            "name": "Course 4",
+            "credit_hours": 3
+          },
+          "B"
+        ]
+      ],
+      "prefix_regex_compiled": ".*",
+      "num_regex_compiled": ".*"
+    },
+    {
+      "name": "Duplicate Course Set",
+      "credit_hours": 10,
+      "course_reqs": [
+        [
+          {
+            "name": "Course 3",
+            "credit_hours": 3
+          },
+          "A"
+        ],
+        [
+          {
+            "name": "Course 4",
+            "credit_hours": 3
+          },
+          "B"
+        ]
+      ],
+      "prefix_regex_compiled": ".*",
+      "num_regex_compiled": ".*"
+    }
+  ],
+  "satisfy": 3
+}
+
+############################################################# Not Valid
+
+{
+  "name": "Invalid Requirement Set",
+  "description": "This requirement set is incorrectly defined and should trigger validation errors.",
+  "credit_hours": 15,
+  "requirements": [
+    {
+      "name": "Course Set A",
+      "credit_hours": 5,
+      "course_reqs": [
+        [
+          {
+            "name": "Course A1",
+            "credit_hours": 2
+          },
+          "A"
+        ],
+        [
+          {
+            "name": "Course A2",
+            "credit_hours": 2
+          },
+          "B"
+        ]
+      ],
+      "prefix_regex_compiled": ".*",
+      "num_regex_compiled": ".*"
+    }
+  ],
+  "satisfy": 1
+}
+
+
